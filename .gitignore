@@ -1,0 +1,55 @@
+# Ignore files and directories created by IDEs/editors
+.vscode/
+.idea/
+*.iml
+.DS_Store
+
+# Ignore dependency directories
+node_modules/
+vendor/
+packages/
+bower_components/
+
+# Ignore build artifacts and output directories
+build/
+dist/
+target/
+bin/
+
+# Ignore temporary files
+*.tmp
+*.log
+*.swp
+
+# Ignore sensitive configuration files
+*.conf
+*.env
+
+# Ignore personal configuration files
+.bash_history
+.zsh_history
+
+# Ignore sensitive credentials, keys, and secrets
+key.json
+*.pem
+*.key
+
+# Ignore backup files
+*~
+*.bak
+*.backup
+
+# Ignore log files
+*.log
+*.log.*
+/logs/
+
+# Ignore Terraform state files and backup files
+*.tfstate
+*.tfstate.backup
+*.tfplan
+
+# Ignore Terraform plugin directory
+.terraform/
+
+# Add more project-specific entries below this line
