@@ -7,11 +7,11 @@ provider "google" {
 }
 
 resource "google_container_cluster" "my_cluster" {
-  name               = "my-gke-cluster1"
+  name               = "my-gke-cluster"
   location           = "us-central1"  # Replace with your desired zone/region
-  initial_node_count = 1  
+  initial_node_count = 2  
 
-  remove_default_node_pool = true  # Remove the default node pool created by Terraform
+#   remove_default_node_pool = true  # Remove the default node pool created by Terraform
 
   master_auth {
     # At least one "client_certificate_config" block is required.
